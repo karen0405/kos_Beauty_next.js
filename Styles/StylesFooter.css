@@ -1,0 +1,51 @@
+.footer{
+    width: 340px;
+    background-color: rgb(156, 171, 179);
+    padding: 1cm 0;
+    bottom: 0;
+    color:#fff;
+    text-align: center;
+}
+
+footer .contenedor{
+    background-color: rgb(156, 171, 179);
+    justify-content: flex-end;
+    padding: 30px 5%;
+    padding-right: 583px;
+    padding-left: 580px;
+}
+
+footer .contenedor p{
+    text-align: center;
+    color: #555555;
+    font-size: 19px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.fa-brands:hover{
+    color: black;
+}
+.fa-brands.fa-twitter{
+    margin-left: 190px;
+    margin-top: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+}
+
+.fa-brands.fa-instagram{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+}
+
+.fa-brands.fa-tiktok{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+}

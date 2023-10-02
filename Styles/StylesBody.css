@@ -1,0 +1,399 @@
+.body{
+    width: 100%;
+    height: 100%;
+    line-height: 1.6;
+    background-color: rgb(245, 242, 242);
+}
+
+.menu{
+    color: #ffffff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*foto grande*/
+
+.imagen-fondo{
+    width: 2349px;
+    height: auto;
+    margin-top: -93px;
+}
+
+.texto1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 104px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto2{
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 38px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-items: center;
+}
+
+/*labiales*/
+.info .info-labiales{
+    color: black;
+    font-size: 40px;
+    margin-top: 130px;
+    text-align: center;
+    width: 98%;
+}
+
+
+button {
+    position: absolute;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    cursor: pointer;
+    background-color: transparent; /* Fondo transparente */
+    border: 3px solid #ffffff; /* Contorno blanco de 2 píxeles */
+    color: #ffffff; /* Texto en color blanco */
+    padding: 10px 25px;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+
+.container{
+    width: 150%;
+    max-width: 1570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container .card{
+    width: 450px;
+    height: 550px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.container .card:hover{
+    background-color: rgb(180, 175, 178);
+}
+
+.container .card img{
+    width: 450px;
+    height: 450px;
+}
+
+.container .card p{
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    color: black;
+    align-items: center;
+}
+
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: monospace;
+    color: #34a751;
+}
+
+/*kos beauty*/
+.imagen-kos{
+    width: 690px;
+    height: auto;
+    padding-top: 139px;
+}
+
+.infodekosbeauty{
+    background-color: black;
+    margin-top: 20px;
+    height: 815px;
+}
+
+.info-labiales .negro{
+    font-weight: bold;
+}
+
+.t1{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 268%;
+    font-size: 60px;
+}
+
+.t2{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 276%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.t3{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 290%;
+    font-size: 32px;
+}
+
+.t6{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 297%;
+    font-size: 32px;
+}
+
+.t4{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 308%;
+    font-size: 22px;
+}
+
+.t7{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 313%;
+    font-size: 22px;
+}
+
+.t5{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 320%;
+    font-size: 22px;
+}
+
+/*info nini*/
+.imagen-nini{
+    width: 620px;
+    height: auto;
+    margin-top: 105px;
+    margin-left: 1065px;
+}
+
+.tex1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 386%;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.tex2{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 396%;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.tex3{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 406%;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.tex4{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 416%;
+    font-size: 55px;
+}
+
+.tex5{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 385%;
+    font-size: 20px;
+}
+
+.tex6{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 389%;
+    font-size: 20px;
+}
+
+.tex7{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 393%;
+    font-size: 20px;
+}
+
+.tex7 .negra{
+    font-weight: bold;
+}
+
+.tex8{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 397%;
+    font-size: 20px;
+}
+
+.tex8 .negra{
+    font-weight: bold;
+}
+
+.tex9{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 405%;
+    font-size: 20px;
+}
+
+.tex10{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 409%;
+    font-size: 20px;
+}
+
+.tex11{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 417%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tex12{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 423%;
+    font-size: 18px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    padding: 47px;
+    margin-top: 90px;
+    background-color: white;
+}
+
+
+
+.icon-camion {
+    height: auto;
+    width: 140px;
+    margin-right: 230px;
+}
+
+.icon-tarjeta {
+    height: auto;
+    width: 77px;
+    margin-right: 340px;
+}
+
+.icon-pet {
+    height: auto;
+    width: 90px;
+    margin-right: 50px;
+}
+
+
+
+.email{
+    background-color: #000000;
+    padding: 120px;
+}
+
+.frase{
+    position: absolute;
+    color: white;
+    left: 41%;
+    top: 520%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.frase2{
+    position: absolute;
+    color: white;
+    left: 34%;
+    top: 533%;
+    font-size: 20px;
+}
+
+#textoUsuario{
+    background-color: rgb(156, 171, 179);
+    color: #ffffff;
+    font-size: 19px;
+    padding: 15px 140px;
+    border: none;
+    border-radius: 1px;
+    cursor:text;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 175px;
+    margin-left: 360px;
+}
+
+#textoUsuario::placeholder{
+    color: #353434;
+    padding: -0px;
+}
+
+#boton-s{
+    background-color: rgb(255, 255, 255);
+    padding: 17px 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: -5px;
+    border: none;
+}
+
+#boton-s:hover {
+    cursor: pointer;
+    background-color: #424040;
+    color: #fff;
+}

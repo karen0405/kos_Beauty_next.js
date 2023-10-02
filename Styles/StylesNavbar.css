@@ -1,0 +1,79 @@
+.menu{
+    color: #ffffff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    padding:41px 20%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+}
+
+.logo-titulo {
+    max-width: 75px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Para mantener la proporción original de la imagen */
+    margin-left: 170px;
+}
+
+
+.navbar .carrito li a i{
+    color: #ffffff;
+    margin-left: 196px;
+    font-size: 20px;
+}
+
+
+.navbar .lista li {
+    list-style: none;
+    margin-right: 20px; /* Espaciado entre elementos de la lista */
+    white-space: nowrap; /* Evita que las palabras se separen en líneas distintas */
+}
+
+.navbar .lista li a{
+    display: block;
+    margin-left: 20px;
+    color: #ffffff;
+    border-bottom: 4px solid transparent;
+    text-decoration:none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30px;
+}
+
+
+.navbar .lista b{
+    font-size: 20px;
+    color:#424144;
+    display: block;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar .lista li b:hover{
+    color:#ffffff;
+}
+
+.navbar .lista {
+    display: flex; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos en la lista */
+}
+
+.navbar .lista li:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
